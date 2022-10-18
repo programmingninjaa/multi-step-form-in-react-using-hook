@@ -1,15 +1,12 @@
 import React from "react";
-import "./global.css";
+import Multiform from "./compoents/Multiform";
 
 const App = ()=>{ 
+  
   return (
-   <>
-   <h1>hi</h1>
-    {/* <Navbar /> */}
-    {/* <ReactList /> */}
-    {/* <Dropdown /> */}
-    {/* <Feed /> */}
-   </>
+  <div>
+    <Multiform />
+  </div>
   )   
 }
 export default App;
